@@ -1,0 +1,49 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25rem 0px 0px 1.25rem;
+}
+
+.add-input {
+  height: 40px;
+  width: 400px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 0 10px;
+}
+.add-input:focus {
+  outline-color: #fff;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+.btn:focus {
+  outline-color: #fff;
+}
+.add-btn {
+  color: #fff;
+  background-color: rgb(66, 172, 234);
+  border: 1px solid rgb(66, 172, 234);
+  border-radius: 20px;
+  margin: 20px;
+}
+.btn-disable {
+  background-color: #777;
+  border: 1px solid #777;
+  cursor: not-allowed;
+}
+.item-container {
+  list-style-type: disc;
+}
+
+.item {
+  padding: 10px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.item-cross {
+  text-decoration: line-through;
+}
